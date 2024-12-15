@@ -6,7 +6,7 @@ import commands
 async def load_commands(tree: app_commands.CommandTree):
     for module_name in commands.__all__:
         module = importlib.import_module(f"commands.{module_name}")
-        await module.setup(tree)
+        await module.test(tree)
     print("Commands ✅")
 
 async def setup_bot(client: discord.Client):

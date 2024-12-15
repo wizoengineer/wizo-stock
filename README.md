@@ -19,6 +19,7 @@ After you run the bot - use the command below for setup:
 - **💻 Self-Hosting Required:** You’ll need to set up your own host to run the bot.
 - **🚨 DISCORD_TOKEN:** You'll need to create a .env file in the root directory and define variable DISCORD_TOKEN with your bot’s token.
 - **🚨 STOCK_API:** -----
+- **🧪 Unit Testing:** Run unit tests with `python -m unittest`.
 
 ### **Current Simple Architecture**:
 
